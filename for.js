@@ -81,3 +81,9 @@ const findPalindrome = arr => {
    return arr.filter(el => isPalindrome(el));
 };
 console.log(findPalindrome(arr));
+// remove
+const mySet = new Set(['marmot', 'bear', 'marmot', 'bear', 'lynx'])
+
+const myArray = [ ...mySet ]
+
+console.log(myArray)
